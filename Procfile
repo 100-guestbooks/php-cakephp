@@ -1,1 +1,1 @@
-web: bin/cake server -p $PORT
+web: heroku-php-nginx
