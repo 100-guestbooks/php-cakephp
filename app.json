@@ -3,5 +3,12 @@
   "description": "A guestbook written with PHP and CakePHP",
   "repository": "https://github.com/100-guestbooks/php-cakephp",
   "logo": "http://100-guestbooks.github.io/assets/100-guestbooks.svg",
-  "keywords": ["php", "cakephp", "guestbook", "100-guestbooks"]
+  "keywords": ["php", "cakephp", "guestbook", "100-guestbooks"],
+  "addons": ["heroku-postgresql:hobby-dev"],
+  "env": {
+    "SECURITY_SALT": {
+      "description": "The salt for hashing methods",
+      "generator": "secret"
+    }
+  }
 }
