@@ -32,7 +32,11 @@
         }
     },
     "scripts": {
-        "post-install-cmd": "App\\Console\\Installer::postInstall",
+        "post-install-cmd": [
+          "mkdir -p tmp",
+          "mkdir -p logs",
+          "App\\Console\\Installer::postInstall"
+        ],
         "post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump"
     },
     "minimum-stability": "dev",
