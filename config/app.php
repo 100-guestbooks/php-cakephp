@@ -38,11 +38,10 @@ return [
     'App' => [
         'namespace' => 'App',
         'encoding' => 'UTF-8',
-        'base' => false,
+        'base' => '/',
         'dir' => 'src',
         'webroot' => 'webroot',
         'wwwRoot' => WWW_ROOT,
-        // 'baseUrl' => env('SCRIPT_NAME'),
         'fullBaseUrl' => false,
         'imageBaseUrl' => 'img/',
         'cssBaseUrl' => 'css/',
