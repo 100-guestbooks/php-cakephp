@@ -9,6 +9,10 @@
     "SECURITY_SALT": {
       "description": "The salt for hashing methods",
       "generator": "secret"
-    }
+    },
+    "DEBUG": {
+      "description": "To debug set this to true. This only works locally not on Heroku. So leaf it true for now."
+      "value": "true"
+    }    
   }
 }

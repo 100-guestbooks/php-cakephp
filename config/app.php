@@ -9,7 +9,7 @@ return [
      * Development Mode:
      * true: Errors and warnings shown.
      */
-    'debug' => true,
+    'debug' => getenv('DEBUG'),
 
     /**
      * Configure basic information about the application.
