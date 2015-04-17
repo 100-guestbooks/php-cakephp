@@ -1,7 +1,7 @@
 {
-  "name": "Guestbook PHP Drupal 3",
-  "description": "A guestbook written with PHP and Druapl 3",
-  "repository": "https://github.com/100-guestbooks/php-drupal3",
+  "name": "Guestbook PHP CakePHP",
+  "description": "A guestbook written with PHP and CakePHP",
+  "repository": "https://github.com/100-guestbooks/php-cakephp",
   "logo": "http://100-guestbooks.github.io/assets/100-guestbooks.svg",
-  "keywords": ["php", "drupal", "guestbook", "100-guestbooks"]
+  "keywords": ["php", "cakephp", "guestbook", "100-guestbooks"]
 }

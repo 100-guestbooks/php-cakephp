@@ -1,4 +1,4 @@
-# Guestbook with PHP and Drupal 3
+# Guestbook with PHP and CakePHP
 
 [![Build Status](https://api.travis-ci.org/cakephp/app.png)](https://travis-ci.org/cakephp/app)
 
